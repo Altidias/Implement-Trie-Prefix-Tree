@@ -17,11 +17,11 @@ The Trie (prefix tree) data structure is well-suited for solving problems relate
 # Complexity
 - Time complexity:
 <!-- Add your time complexity here, e.g. $$O(n)$$ -->
-Insertion: $$O(L)$$, where $$L$$ is the length of the word being inserted.
+Insertion: O(L), where L is the length of the word being inserted.
 
-Search: $$O(L)$$, where $$L$$ is the length of the word being searched.
+Search: O(L), where L is the length of the word being searched.
 
-Starts with: $$O(L)$$, where $$L$$ is the length of the prefix being checked.
+Starts with: O(L), where L is the length of the prefix being checked.
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
-$$O(N * L)$$, where $$N$$ is the number of words and $$L$$ is the maximum length of a word. In the worst case, each word might not share any common prefix, requiring separate TrieNodes for each character.
+O(N * L), where N is the number of words and L is the maximum length of a word. In the worst case, each word might not share any common prefix, requiring separate TrieNodes for each character.
