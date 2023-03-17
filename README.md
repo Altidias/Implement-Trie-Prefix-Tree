@@ -25,3 +25,4 @@ Starts with: O(L), where L is the length of the prefix being checked.
 - Space complexity:
 <!-- Add your space complexity here, e.g. $$O(n)$$ -->
 O(N * L), where N is the number of words and L is the maximum length of a word. In the worst case, each word might not share any common prefix, requiring separate TrieNodes for each character.
+![image](https://user-images.githubusercontent.com/28766618/225803955-3f2da142-fc48-4ee7-8cc2-5fa6e656db6f.png)
